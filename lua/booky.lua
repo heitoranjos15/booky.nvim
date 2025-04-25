@@ -39,5 +39,7 @@ M.open_split = function()
     vim.cmd("silent !touch " .. todo_file_path)
   end
 
-  vim.cmd("vsplit " .. todo_file_path)
+  vim.cmd("split " .. todo_file_path)
 end
+
+M.open_split()
