@@ -41,5 +41,3 @@ M.open_split = function()
 
   vim.cmd("split " .. todo_file_path)
 end
-
-M.open_split()
